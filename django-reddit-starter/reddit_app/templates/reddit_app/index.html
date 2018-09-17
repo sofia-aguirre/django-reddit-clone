@@ -1,0 +1,14 @@
+{% extends "reddit_app/base.html" %}
+
+{% block content %}
+<div class="container">
+  <div class="jumbotron">
+    <h1>Welcome to the Reddit Clone!</h1>
+    {% if user.is_authenticated %}
+        <h2>Hello {{ user.username }}</h2>
+    {% else %}
+        <h2>Please Register or Login</h2>
+    {% endif %}
+  </div>
+</div>
+{% endblock %}
