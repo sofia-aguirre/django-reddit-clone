@@ -42,7 +42,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'reddit_app',
-    'django_extensions'
+    # 'django_extensions'
 ]
 
 MIDDLEWARE = [
